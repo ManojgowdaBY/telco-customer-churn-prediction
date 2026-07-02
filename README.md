@@ -57,3 +57,65 @@ Class weights were implemented to balance the ~3:1 ratio of retained to churned 
 *   **Contract Incentives:** Deploy upgrade campaigns pushing month-to-month clients toward stable long-term contracts.
 *   **Autopay Migration:** Nudge Electronic Check users toward automatic payment methods to remove recurring renewal friction.
 *   **Model Deployment:** Set up the Random Forest pipeline quarterly as an automated early-warning system to score active users.
+*   ## Requirements
+
+Before running this project, ensure you have the following installed:
+
+* Python 3.10 or later
+* pip (Python package manager)
+* Jupyter Notebook or JupyterLab (for running the notebook)
+
+### Python Dependencies
+
+Install all required packages with:
+
+```bash
+pip install -r requirements.txt
+```
+
+The project uses the following Python libraries:
+
+* pandas – Data manipulation and analysis
+* numpy – Numerical computations
+* matplotlib – Data visualization
+* seaborn – Statistical visualizations
+* scikit-learn – Machine learning algorithms and model evaluation
+* scipy – Scientific computing
+* joblib – Model serialization
+* jupyter – Interactive notebook environment
+* notebook – Jupyter Notebook interface
+* ipykernel – Python kernel for Jupyter
+* openpyxl – Reading and writing Excel files
+* plotly – Interactive visualizations (optional)
+* xgboost – Gradient boosting model (optional)
+* lightgbm – Light Gradient Boosting Machine (optional)
+* catboost – Gradient boosting for categorical features (optional)
+
+### Recommended Environment
+
+It is recommended to use a virtual environment before installing the dependencies:
+
+**Windows**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+**Linux/macOS**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+License
+
+This project is intended for educational and research purposes.
+
+Author
+
+ManojGowda B Y 
+
+If you find this project helpful, consider giving the repository a ⭐ on GitHub.
