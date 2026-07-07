@@ -112,7 +112,7 @@ pip install -r requirements.txt
 ```
 License
 
-This project is intended for educational and research purposes.
+This internship project was developed for educational, learning, and research purposes.
 
 Author
 
