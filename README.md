@@ -19,6 +19,11 @@ This project is broken down into two core phases:
 *   **Environment:** Jupyter Notebook / GitHub / Excel
 
 ---
+## Dataset
+[Telco Customer Churn – Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)  
+7,043 customers | 21 features | Binary churn classification
+
+---
 
 ## 📊 Pipeline Workflow
 1. **Data Collection:** Load and inspect the Telco dataset structure.
